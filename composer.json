@@ -3,7 +3,7 @@
   "description": "Tapfiliate REST API for Laravel.",
   "type": "library",
   "version": "1.0",
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "license": "MIT",
   "authors": [
     {
