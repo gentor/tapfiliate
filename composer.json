@@ -1,0 +1,25 @@
+{
+  "name": "gentor/tapfiliate",
+  "description": "Tapfiliate REST API for Laravel.",
+  "type": "library",
+  "version": "1.0",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Evgeni Nurkov",
+      "email": "evgeni.nurkov@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "ext-curl": "*",
+    "illuminate/config": ">=4.2",
+    "illuminate/support": ">=4.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Gentor\\Tapfiliate\\": "src"
+    }
+  }
+}
