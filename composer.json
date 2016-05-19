@@ -1,9 +1,8 @@
 {
   "name": "gentor/tapfiliate",
   "description": "Tapfiliate REST API for Laravel.",
-  "type": "library",
+  "keywords": ["tapfiliate", "laravel"],
   "version": "1.0",
-  "minimum-stability": "stable",
   "license": "MIT",
   "authors": [
     {
@@ -18,8 +17,9 @@
     "illuminate/support": ">=4.2"
   },
   "autoload": {
-    "psr-4": {
-      "Gentor\\Tapfiliate\\": "src"
+    "psr-0": {
+      "Gentor\\Tapfiliate": "src/"
     }
-  }
+  },
+  "minimum-stability": "dev"
 }
