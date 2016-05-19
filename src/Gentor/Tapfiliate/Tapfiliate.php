@@ -60,6 +60,11 @@ class Tapfiliate
         return new Conversions($this);
     }
 
+    public function commissions($commission_id = null)
+    {
+        return new Commissions($this, $commission_id);
+    }
+
     public function reports($date_from = null)
     {
         return new Reports($this, $date_from);
